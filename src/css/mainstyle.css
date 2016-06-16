@@ -1,0 +1,49 @@
+body{
+  padding:0;
+  margin:0;
+  background: linear-gradient(to bottom right, #eeeeee, #4099ff);
+  background-size: cover;
+  background-repeat: no-repeat;;
+  height:100vh;
+}
+#main
+{
+  padding:20px 30px;
+  border-radius: 5px;
+  border:#ccc solid 1px;
+  margin:20px;
+  background-color: #eeeeee;
+}
+#main2
+{
+  padding:20px 30px;
+  border-radius: 5px;
+  border:#ccc solid 1px;
+  margin:20px;
+  background-color: #eeeeee;
+}
+#main>div>input[type="text"]
+{
+  height:200px;
+  width:70%;
+  max-width:300px;
+  border-radius:5px;
+  padding:5px;
+}
+
+#main>div>input[type="button"]
+{
+  display:block;
+  margin-top:20px;
+  float:right;
+  background-color: #4099ff;
+  color:#ffffff;
+  height:50px;
+  width:100px;
+  border-radius:2px;
+}
+#main2>ul>li
+{
+  list-style:hiragana;
+  border-bottom:solid #ccc 1px;
+}
